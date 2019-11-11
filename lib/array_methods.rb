@@ -7,11 +7,18 @@ end
 end
 
 
-end
 
 def find_max_value(array)
-  # Add your solution here
+  x = 0
+    array.length.times { |index|
+    if array [index] > x
+  x = array[index]
+  end
+  }
+X
 end
+
+
 
 def find_min_value(array)
   # Add your solution here
